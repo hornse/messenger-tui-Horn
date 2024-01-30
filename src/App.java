@@ -29,7 +29,7 @@ public class App {
         scanner = new Scanner(System.in);
         System.out.println("Welche Verschlüsselung möchtest du verwenden? [C]aesar oder [V]igenere");
         String c = scanner.nextLine();
-        System.out.println("Gib bitte den Schlüssel ein.");
+        System.out.println("Gib bitte den Schlüssel ein!");
         this.secretKey = scanner.nextLine();
 
         // SETUP
